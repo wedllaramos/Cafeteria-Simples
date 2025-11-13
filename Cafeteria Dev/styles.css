@@ -145,4 +145,41 @@ section {
     color: #fff;
     padding: 1rem 0;
     line-height: 1.5;
+
+}
+
+.review .box-container {
+    text-align: center;
+    border: var(--border);
+    padding: 5rem;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1 fr));
+    gap: 1rem;  
+}
+
+.review .box-container .box {
+    border: var(--border);
+    text-align: center;
+    padding: 3 rem 2rem;
+ 
+}
+
+.review .box-container .box p {
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 2rem 0;
+    line-height: 1.8;
+}
+
+.review .box-container .box .user {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+}
+
+.adress {
+    display: flex;
+    align-items: center;
+    flex: content;
 }
